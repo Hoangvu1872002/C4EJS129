@@ -1,0 +1,47 @@
+/* a:visited{
+    color:aquamarine;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:blue;
+}
+a:hover{
+    background-color: bisque;
+    font-size: 40px;
+    color:blueviolet;
+}
+a:active{
+    background: red;
+    font-size: 60px
+}
+.body{
+    display: flex;
+    flex-direction: column;
+} */
+.box_container{
+    background-color: antiquewhite;
+    width:200px;
+    height:200px;
+    /* dich chuy vi tri */
+    transform: translate(200px, 500px);
+    /* phong to, thu nho */
+    transform:scale(1.3);
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2) */
+
+    /* Xoay item */
+     transform: rotate(45deg);
+     /* nghieng item */
+     transform:skew();
+     /* tạo thời gian chuyển đổi  */ 
+         transition-duration:  2s;
+         /* transition-delay:5s; */
+         /* gia tốc */
+          /* transition-timing-function: cubic-bezier(.13,.72,.93,.3); */
+}
+.box_container:hover{
+    background-color: aquamarine;
+    transform: translate(200px);
+}

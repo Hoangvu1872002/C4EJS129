@@ -1,0 +1,39 @@
+.img{
+    border-radius: 50%;
+    width:50px
+}
+.sidebar__profile{
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+body{
+    background-color: rgb(171, 132, 207);
+}
+.sidebar-ppewrar{
+    width:30%;
+    height: 600px;
+    background-color: blanchedalmond;
+    margin: auto;
+    
+}
+.link{
+    
+}
+.link:hover{
+    color:rgb(119, 76, 21)
+}
+.sidebar__logo{
+    display: flex;
+    align-content: center;
+    text-transform: uppercase;
+    justify-content: center;
+
+}
+.sidebar__nav{
+  
+}
+

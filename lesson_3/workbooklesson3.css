@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    background-image: url('https://scr.vn/wp-content/uploads/2020/07/%E1%BA%A3nh-n%E1%BB%81n-t%E1%BB%91i-gi%E1%BA%A3n-ch%C3%BA-m%C3%A8o-%C4%91en.png');
+    font-family:'Roboto', sans-serif; 
+    display: flex; 
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    border-style: dashed;
+    border-color:rgb(97, 166, 226);
+    border-width: 3px;
+}
+.part_1{
+    width: 33%;
+    padding-left: 15px;
+}
+.part_2{
+    background: rgb(160, 218, 204);
+    width: 50%;
+    padding: 20px;
+    box-shadow: 3px 4px 7px #5e9d7d;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-top:10px;
+}
+.name_information{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgb(182, 237, 143);
+    box-shadow: 3px 4px 7px #2b8156
+}
+.name_information_title{
+    color:rgb(146, 132, 28);
+    font-weight: bold;
+}
+.name_information_content{
+    color:rgb(121, 121, 119)
+}
+.contact:hover{
+    color:#a76530;
+}
+.contact{
+    color:rgb(38, 141, 110); 
+    font-size:22px;
+}
+.link:hover{
+    color:#a76530
+}
+.link{
+    color:rgb(38, 141, 110); 
+}
+.img{
+    width:250px;
+    height:231px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 3px 4px 7px #97cee4;
+}
+.title{
+    color: rgb(53, 118, 134);
+}
+.small{
+    font-size: 18px ;
+}
+.name{
+    color: rgb(121, 126, 130);
+}
+
+
+
+
+
