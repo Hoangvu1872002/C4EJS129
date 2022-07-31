@@ -877,8 +877,8 @@ position: relative;
   width:95%;
   height: 400px;
 
-  z-index: 3;
+  /* z-index: 3; */
 }
 .bgr-1-1:hover{
-  z-index:0;
+  /* z-index:0; */
 }  
