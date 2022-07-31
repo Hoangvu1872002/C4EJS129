@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;500&display=swap');
+.I{
+    width: 100%;
+    height:800px;
+   display: flex;
+   justify-content: center; 
+   align-items:center;
+   flex-direction: column;
+   position: relative;
+}
+.II{
+    width:80%;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, rgba(235, 121, 45, 0.5), rgba(117, 190, 183, 0.5)),
+    url('https://balovanphuc.com/upload/images/nhung-dia-diem-du-lich-hot-nhat-2017-1.jpg');
+    background-size: cover;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+/* .II_2{
+    width:80%;
+    height: 500px;
+    background-image: url('https://balovanphuc.com/upload/images/nhung-dia-diem-du-lich-hot-nhat-2017-1.jpg');
+    background-size: cover;
+    padding-left: 20px;
+    border-radius: 30px;
+    position: absolute;
+    /* position:sticky; */
+    /* position:fixed; */
+ 
+.A{
+    text-transform: uppercase;
+    font-family: 'Albert Sans', sans-serif;
+    /* position: absolute; */
+}
+.I_Body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    /* position: absolute; */
+}
+
+.Box_Img{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items:center;
+    position: relative;
+}
+.Img_Bgr_1{
+    width: 95%;
+    height: 150px;
+    /* background-image: url('https://static.vinwonders.com/2022/05/DJI_0087-1-scaled.jpg'); */
+    background-size: cover;
+    border-radius:20px ;
+    margin-top: 6px;
+    /* box-shadow: 2px 2px 2px #72d5bb; */
+    position:absolute;
+}
+.Bgr_1_B{
+    background-image: url('https://static.vinwonders.com/2022/05/DJI_0087-1-scaled.jpg');
+    box-shadow: 2px 2px 2px #72d5bb;
+}
+.Bgr_1_C{
+    background-image: url('https://goldencoto.vn/wp-content/uploads/2022/03/lang-chai-va-khu-hau-can-nghe-ca-1.jpg');
+    box-shadow: 2px 2px 2px #72d5bb;
+}
+.Bgr_1_D{
+    background-image: url('https://banahills.sunworld.vn/wp-content/uploads/2020/04/nui-chua-ba-na-1.png');
+    box-shadow: 2px 2px 2px #72d5bb;
+}
+
+.Img_2{
+    width: 95%;
+    height: 150px;
+    border-radius:20px ;
+    margin-top: 6px;
+    position:sticky;
+} 
+.Img_2:hover{
+    background: rgba(0,0,0,0.15);
+    cursor:pointer;
+}
+
+.One{
+    display:flex;
+    width:100%;
+    height: 60%;
+    justify-content:space-around;
+}
+.One_Assess{
+    color:rgb(248, 236, 8);
+    top:20px;
+    margin-top: 20px;
+}
+.One_Money{
+    margin-top:5px ;
+    /* color:rgb(90, 34, 34);
+    background-color: rgb(124, 217, 148);
+    box-shadow: 3px 4px 7px #62bae9; */
+    width:65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+   align-items: center;
+   flex-direction: column;
+}
+.One_Money_B{
+    color:rgb(90, 34, 34);
+    background-color: rgb(124, 217, 148);
+    box-shadow: 3px 4px 7px #62bae9;
+}
+.One_Money_C{
+    color:rgb(90, 34, 34);
+    background-color: rgb(124, 217, 148);
+    box-shadow: 3px 4px 7px #62bae9;
+}
+.One_Money_D{
+    color:rgb(90, 34, 34);
+    background-color: rgb(124, 217, 148);
+    box-shadow: 3px 4px 7px #62bae9;
+}
+.B_One_Money_1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.B_One_Money_2{
+    text-decoration: line-through
+}
+.C_One_Money_1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.C_One_Money_2{
+    text-decoration: line-through
+}
+.D_One_Money_1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.D_One_Money_2{
+    text-decoration: line-through
+}
+.Two{
+    width: 55%;
+    height: 35%;
+    display: flex;
+    align-items:flex-end;
+}
+.Two_Icon{
+    width: 100%;
+    height: 20px;
+    color: rgb(230, 238, 234);
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    margin-left: 13px;
+    font-size: 14px;
+}
+.icon:hover{
+    color: #75e5c0;
+    transform: translateY(-3px);
+    transition-duration:  0.35s;
+    cursor:pointer;
+}
+.Describe{
+    margin: 5px;
+
+}
+.note{
+    color:rgb(137, 140, 143);
+    margin-bottom: 10px;
+}
+.B{
+    width: 250px;
+    background-color:aliceblue ;
+    box-shadow: 3px 4px 7px #97cee4;
+    border-radius:20px ;
+    /* display: none; */
+}
+.C{
+    width: 250px;
+    background-color:rgb(143, 192, 236) ;
+    box-shadow: 3px 4px 7px #97cee4;
+    border-radius:20px ;
+}
+.D{
+    width: 250px;
+    background-color:rgb(130, 221, 235) ;
+    box-shadow: 3px 4px 7px #97cee4;
+    border-radius:20px ;
+}
+.infor{
+    display: flex;
+    width:100%;
+    height: 35px;
+}
+.space{
+    display: flex;
+    flex:2;
+    justify-content:space-around;
+    align-items:center;
+    border-style:groove ;
+}
+.space0{
+    display: flex;
+    flex:1;
+    justify-content:space-around;
+    align-items:center;
+    border-style:groove;
+}
+.Box_Location{
+    height: 60px;
+    display:flex;
+    align-items: flex-start;
+}
+.Location:hover{
+    color:rgb(84, 64, 64);
+    font-size: 16.5px;
+    transition-duration:  0.15s;
+    cursor:pointer;
+}
+.space01:hover{
+    transform: translateX(5px);
+    cursor:pointer;
+}
+@media only screen and (max-width: 1200px), (min-width: 992px) {
+.I_Body{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+}
+/* .II{
+height: 100%;
+} */
+}
+@media only screen and (max-width: 992px), (min-width: 768px){
+    .I_Body{
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 20px;
+}
+/* .II{
+    height: 100%;
+    } */
+}
+@media only screen and (max-width: 768px), (min-width: 576px){
+    .I_Body{
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 20px;
+}
+/* .II{
+    height: 100%;
+    } */
+}
+@media only screen and (max-width: 576px), (min-width: 0px){
+    .I_Body{
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 20px;
+}
+/* .II{
+    height: 100%;
+    } */
+}

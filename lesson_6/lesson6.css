@@ -22,8 +22,7 @@
     left: 0;
   } 
    
-  .container:hover 
-  .bg-black {
+  .container:hover .bg-black {
     background: rgba(0, 0, 0, 0.5);
   }
   

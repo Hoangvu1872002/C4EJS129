@@ -26,7 +26,7 @@ body{
 }
 .box1{
     position: relative;
-    top: 20px;
+    top: 150px;
     left: 50px;
     background-color: rgb(135, 135, 197);
 }
@@ -38,8 +38,8 @@ body{
    right:70px;
 }
 .box3{
-    position:sticky;
-    top:100px;
+    /* position:sticky; */
+    top:150px;
 
     background-color: rgb(228, 152, 152);
 }
