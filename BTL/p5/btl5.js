@@ -28,3 +28,34 @@ tabs.forEach((tab, index) => {
     pane.classList.add("active");
   };
 });
+
+
+
+// $(document).ready(function(){
+//   $(window).scroll(function(){
+//     if ($(this).scrollTop()){
+//       $('#backtop').fadeIn();
+//     } else{
+//       $('#backtop').fadeOut();
+//     }
+//   });
+//   $("backtop").click(function(){
+//     $('html, body').animate({
+//       scrollTop:0
+//     },1000);
+//   })
+// });
+
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("backtop").style.display = "block";
+  } else {
+      document.getElementById("backtop").style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

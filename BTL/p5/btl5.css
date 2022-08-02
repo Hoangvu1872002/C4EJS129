@@ -9,12 +9,14 @@
     font-family: "Poppins", sans-serif;
   }
   .body-1 > div {
-    margin: 5% auto 0;
+    /* margin: 5% auto 0; */
     /* max-width: 720px; */
   }
   .tabs {
     display: flex;
     position: relative;
+    margin-left: 6%;
+    z-index:10;
   }
   .tabs .line {
     position: absolute;
@@ -23,7 +25,7 @@
     width: 0;
     height: 6px;
     border-radius: 15px;
-    background-color: #55b9bd;
+    background-color: rgb(220 162 57 / 78%);
     transition: all 0.2s ease;
   }
   .tab-item {
@@ -31,8 +33,8 @@
     padding: 16px 20px 11px 20px;
     font-size: 20px;
     text-align: center;
-    color: #226e89;
-    background-color: #fff;
+    color: #607d8b;
+    background-color: #b4adaa;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom: 5px solid transparent;
@@ -67,7 +69,9 @@
     background-image: url('http://www.ivang-design.com/svg-load/3.jpg');
   }
   .tab-2{
-    margin-top: 32px;
+    margin-top: 30px;
+    background-image: url('https://cdn.hinhnen4k.net/uploads/2021/12/forest_trees_pine_163538_3840x2160.jpg');
+    background-size: cover;
   }
   .tab-pane.active {
     display: block;
@@ -309,7 +313,6 @@
 	color: #102770;
 	/* background-color:  #a3c984; */
 	overflow-x: hidden;
-  background-image: url('https://bloganchoi.com/wp-content/uploads/2022/04/rung-thong-bo-bo-da-nang-1536x887-1.jpg');
   /* background-size: cover; */
 }
 .col-12{
@@ -481,7 +484,6 @@ a:hover {
   width: 100%;
   display: block;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   font-size: 22px;
@@ -554,7 +556,8 @@ a:hover {
 .pricing-wrap h2,
 .pricing-wrap p,
 .pricing-wrap h4{
-  margin: 23px 0 5px 0;
+  margin: 20px 0 15px 0;
+  font-family: "Edu VIC WA NT Beginner", cursive;
 }
 .link {
   position: relative;
@@ -728,6 +731,7 @@ a:hover {
   margin: 0;
   padding: 0;
   overflow-x: none;
+  padding-bottom: 40px;
 }
 p{
 	font-family: 'Poppins', sans-serif;
@@ -848,17 +852,19 @@ p{
 .bgr-1{
    /* background-image: url('http://www.ivang-design.com/svg-load/3.jpg'); */
   width:100%;
-  height: 400px;
+  height: 560px;
   display: flex;
 justify-content: center;
-
+background-color: #607d8be6;
+z-index:1;
+border-radius: 0 0 7px 7px;
 }
 .brg{
 position: relative;
 }
 .bgr-2{
   width:100%;
-  height: 400px;
+  height: 620px;
   position: absolute;
   top:0;
   left:0;
@@ -866,19 +872,108 @@ position: relative;
   bottom:0;
   display: flex;
   justify-content: center;
+  z-index:4;
+}
+.bgr-3{
+  width:100%;
+  height: 621.18px;
+  position: absolute;
+  top:60px;
+  left:0;
+  right:0;
+  bottom:0;
+  display: flex;
+  justify-content: center;
+  z-index:2;
+}
+.bgr-3-1{
+  width:94%;
+  background-color: #55b9bd;
+  border-radius: 7px;
 }
 .bgr-2-2{
-  background-color: rgb(144, 147, 148, 0.5);
-  width:95%;
-  height: 400px;
-  z-index: 1
+  margin-top: 20px;
+  width:88%;
+  height: 600px;
+  border-radius: 7px;
+  cursor:pointer;
+  position: relative;
+  /* display: flex;
+  align-items: center; */
+  /* background-color: rgb(144, 147, 148, 0.5); */
 }
 .bgr-1-1{
-  width:95%;
-  height: 400px;
-
-  /* z-index: 3; */
+  margin-top: 20px;
+  width:88%;
+  height: 600px;
+  border-radius: 7px;
+  z-index:3;
 }
-.bgr-1-1:hover{
-  /* z-index:0; */
+.bgr-2-2:hover{
+  background-color: rgba(239, 242, 242, 0.2);
+  transition-duration:  1.25s;
+  
+}
+.bgr-2-2:hover .bgr-2-2-1{
+  transform: translateX(180px);
+  transition-duration:  1s;
 }  
+.bgr-2-2:hover .bgr-2-2-2{
+  transform: translateX(-220px);
+  transition-duration:  1s;
+}
+.bgr-2-2:hover .team{
+  opacity: 0.8;
+  color: rgb(250, 248, 248);
+}
+.bgr-2-2:hover .bgr-2-2-3{
+  transform: translateY(215px);
+  transition-delay:0.5s;
+  transition-duration:0.75s;
+}
+.bgr-2-2:hover .bgr-2-2-4{
+  transform: translateX(100px);
+  transition-delay:0.5s;
+  transition-duration:0.75s;
+}
+.team{
+  position: absolute;
+  font-size: 90px;
+  color:rgb(248, 246, 250, 0);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.bgr-2-2-4{
+  top:37%; 
+  left:0;
+}
+.bgr-2-2-3{
+  top:0;
+  left:50%;
+}  
+.bgr-2-2-1{
+  top:37%; 
+  left:0;
+}
+.bgr-2-2-2{
+  top:37%;
+  right:0;
+}
+ #backtop{
+  width: 50px;
+  height:50px;
+  background: #4d5252;
+  color:#648946;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  cursor:pointer;
+  z-index: 100;
+ }
+ #backtop:hover {
+  background-color: #555;
+}
