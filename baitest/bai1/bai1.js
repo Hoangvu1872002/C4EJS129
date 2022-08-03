@@ -7,15 +7,16 @@ let st1, st2, i=0, j, k, l=0, A, B;
   st1=Number(st1);
   st2=Number(st2);
 
-    if(st1 < 0 && st2 < 0){
-        document.write('khong co so nguyen to');
-        
+    if(st1 <=0 && st2 <=0){
+        document.write('khong co so nguyen to');       
         }else if(st1 > st2 && st1>0 && st2>0){
         B=st1; A=st2;
         }else if(st1 > st2 && st2 < 0){ 
         B=st1; A=1;
         }else if(st2 > st1 && st1 >0 && st2>0){
            A=st1; B=st2;  
+        }else if(st1 > st2 && st1 >0 && st2>0){
+            B=st1; A=st2;
         }else if(st2 > st1 && st1 < 0){
            B= st2; A=1;
         }
