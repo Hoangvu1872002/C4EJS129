@@ -17,6 +17,35 @@
     padding-left: 20px;
     border-radius: 30px;
 }
+.III{
+    display:flex;
+    justify-content: space-around;
+    font-weight:500;
+    font-family: 'Albert Sans', sans-serif;
+    border-style:ridge;
+    
+    border-left-color:rgb(119, 0, 255) ;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+.III-1{
+    font-size:18px;
+}
+.III-2{
+    background-color: #72d5bb;
+    height: 30px;
+    width:120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color:antiquewhite;
+    cursor:pointer;
+}
+.III-2:hover{
+    background-color: rgb(114, 213, 187, 0.8);
+}
 /* .II_2{
     width:80%;
     height: 500px;
@@ -59,18 +88,21 @@
     position:absolute;
 }
 .Bgr_1_B{
-    background-image: url('https://static.vinwonders.com/2022/05/DJI_0087-1-scaled.jpg');
+    background-image: url('http://leadtravel.com.vn/cam-nang-du-lich/wp-content/uploads/2016/12/sapa-mua-hoa-no-di-du-lich-sapa-mua-nao-dep-nhat-7.jpg');
     box-shadow: 2px 2px 2px #72d5bb;
 }
 .Bgr_1_C{
-    background-image: url('https://goldencoto.vn/wp-content/uploads/2022/03/lang-chai-va-khu-hau-can-nghe-ca-1.jpg');
+    background-image: url('https://vnn-imgs-f.vgcloud.vn/2022/01/27/20/269927097-682122773194262-2025912568130755358-n.jpg');
     box-shadow: 2px 2px 2px #72d5bb;
 }
 .Bgr_1_D{
-    background-image: url('https://banahills.sunworld.vn/wp-content/uploads/2020/04/nui-chua-ba-na-1.png');
+    background-image: url('http://wiki-travel.com.vn/Uploads/picture/Thaophuongnguyen-184710084754-ha-long-8.jpg');
     box-shadow: 2px 2px 2px #72d5bb;
 }
-
+.Bgr_1_E{
+    background-image: url('https://images.vietnamtourism.gov.vn/vn/images/2019/CNMN/18.2._5_Dia_diem_me_hoac_cua_Viet_Nam_duoc_truyen_thong_quoc_te_vinh_danh_1.jpg');
+    box-shadow: 2px 2px 2px #72d5bb;
+}
 .Img_2{
     width: 95%;
     height: 150px;
@@ -122,6 +154,11 @@
     background-color: rgb(124, 217, 148);
     box-shadow: 3px 4px 7px #62bae9;
 }
+.One_Money_E{
+    color:rgb(90, 34, 34);
+    background-color: rgb(124, 217, 148);
+    box-shadow: 3px 4px 7px #62bae9;
+}
 .B_One_Money_1{
     font-weight: bold;
     font-size: 20px;
@@ -141,6 +178,13 @@
     font-size: 20px;
 }
 .D_One_Money_2{
+    text-decoration: line-through
+}
+.E_One_Money_1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.E_One_Money_2{
     text-decoration: line-through
 }
 .Two{
@@ -175,20 +219,25 @@
 }
 .B{
     width: 250px;
-    background-color:aliceblue ;
+    background-color:rgb(149 198 243) ;
     box-shadow: 3px 4px 7px #97cee4;
     border-radius:20px ;
-    /* display: none; */
 }
 .C{
     width: 250px;
-    background-color:rgb(143, 192, 236) ;
+    background-color:rgb(149 198 243);
     box-shadow: 3px 4px 7px #97cee4;
     border-radius:20px ;
 }
 .D{
     width: 250px;
-    background-color:rgb(130, 221, 235) ;
+    background-color:rgb(149 198 243) ;
+    box-shadow: 3px 4px 7px #97cee4;
+    border-radius:20px ;
+}
+.E{
+    width: 250px;
+    background-color:rgb(149 198 243) ;
     box-shadow: 3px 4px 7px #97cee4;
     border-radius:20px ;
 }
@@ -215,6 +264,9 @@
     height: 60px;
     display:flex;
     align-items: flex-start;
+}
+.Location{
+    margin-left: 20px;
 }
 .Location:hover{
     color:rgb(84, 64, 64);
