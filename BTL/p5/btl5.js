@@ -31,20 +31,7 @@ tabs.forEach((tab, index) => {
 
 
 
-// $(document).ready(function(){
-//   $(window).scroll(function(){
-//     if ($(this).scrollTop()){
-//       $('#backtop').fadeIn();
-//     } else{
-//       $('#backtop').fadeOut();
-//     }
-//   });
-//   $("backtop").click(function(){
-//     $('html, body').animate({
-//       scrollTop:0
-//     },1000);
-//   })
-// });
+
 
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
@@ -59,3 +46,21 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+
+
+
+
+// const test =document.querySelectorAll('.card')
+
+// const observer = new IntersectionObserver(entries =>{
+//   entries.forEach(entry=>{
+//     const {target}= entry;
+//     target.classList.toggle('activeA', entry.isIntersecting)
+//   })
+// },{})
+
+// cards.forEach(card =>{
+//   observer.observe(card)
+// })

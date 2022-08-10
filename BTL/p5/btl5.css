@@ -67,11 +67,13 @@
   }
   .tab-1{
     background-image: url('http://www.ivang-design.com/svg-load/3.jpg');
+    border-radius: 7px;
   }
   .tab-2{
     margin-top: 30px;
     background-image: url('https://cdn.hinhnen4k.net/uploads/2021/12/forest_trees_pine_163538_3840x2160.jpg');
     background-size: cover;
+    border-radius: 7px;
   }
   .tab-pane.active {
     display: block;
@@ -859,7 +861,7 @@ background-color: #607d8be6;
 z-index:1;
 border-radius: 0 0 7px 7px;
 }
-.brg{
+.bgr{
 position: relative;
 }
 .bgr-2{
@@ -962,8 +964,8 @@ position: relative;
  #backtop{
   width: 50px;
   height:50px;
-  background: #4d5252;
-  color:#648946;
+  background: #2ba397;
+  color:#4534af;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -977,3 +979,171 @@ position: relative;
  #backtop:hover {
   background-color: #555;
 }
+
+
+
+
+
+
+.footer{
+  display: flex;
+  background-color: #000000;
+  padding:50px 35px 0px 35px;
+  height: 280px;
+  border-top-color: #1ec6b6;
+  border-top-style:solid;
+  border-width: 4px;
+  /* justify-content: space-around; */
+}
+.footer-item-title{
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1.4rem;
+  font-weight: bold;
+}
+.footer-item{
+  /* display:flex; */
+  flex:1;
+  margin-left:20px;
+}
+.footer-item-1{
+  flex:1;
+}
+.site-brand-footer{
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.site-brand-footer:hover{
+  color:#1ec6b6; ;
+}
+.footer-item-title-location{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-item-title-location-li{ 
+  text-decoration: none;
+  color:#ffffff; 
+  font-family: 'Open Sans', sans-serif;
+}
+.footer-item-title-location-box{
+  margin-bottom: 3px;
+}
+.footer-item-title-location-li:hover{
+  color:#1ec6b6;
+}
+.social-links-box{
+  margin-right: 3px;
+}
+.social-links-li{
+  font-size: 20px;
+  text-decoration: none;
+  color:#ffffff;
+}
+.social-links-li:hover{
+  color:#1ec6b6;
+}
+.form-control{
+  border-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+    margin: 0.6rem 0;
+    max-width: 500px;
+    border: 1px solid #fff;
+    border-radius: 0.2rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    background-color: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.btn{
+    padding: 0.7rem 2.4rem;
+    border-radius: 0.2rem;
+    font-weight: 200;
+    font-size:1rem;
+    background-color:#1ec6b6 ;
+    color: #fff;
+    border: 1px solid #1ec6b6 ;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+.btn:hover{
+  background-color: #28ada0;
+}
+
+
+
+
+
+
+
+.navbar{
+  background-color: #4e636de6;
+  width: 100%;
+  height: 70px;
+  display:flex;
+  align-items: center;
+}
+.container-navbar{
+  display:flex;
+  align-items: center;
+  background-color: rgba(96, 125, 139, 0.5);
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  z-index: 200;
+}
+.site-brand-navbar{
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  margin-left:20px;
+}
+.site-brand-navbar .span-1:hover{
+  color:#1ec6b6;
+}
+.site-brand-navbar .span-2:hover{
+  color:#000000;
+}
+#navbar-collapse{
+  width:40%;
+}
+.navbar-nav{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.nav-link{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+/* 
+.test{
+  height: 300px;
+  display: flex;
+  justify-content:center ;
+}
+.card{
+ margin-top: 100px;
+ transition:all 2s;
+ transform:translateY(100px);
+ opacity: 0;
+}
+.card .activeA{
+  opacity: 1;
+  transform: translateY(0);
+} */

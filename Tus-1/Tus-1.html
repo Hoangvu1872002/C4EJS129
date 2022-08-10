@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html>
-
 <head>
-    <title>workbook lesson 3</title>
-    <meta charset="uft-8">
-    <link rel="stylesheet" href="btl5.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-    crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Travel</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- font awesome cdn -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"/> -->
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="icon"href="https://e7.pngegg.com/pngimages/266/360/png-clipart-airplane-aircraft-computer-icons-airplane-angle-triangle.png">
     <!-- fonts -->
     <link rel="stylesheet" href="fonts.css">
@@ -25,264 +17,261 @@
     <link rel="stylesheet" href="utility.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-
 </head>
+
 <body>
-    <div class="bgr">
-        <div class="bgr-1">
-            <img class="bgr-1-1"
-                src="https://cdn.hinhnen4k.net/uploads/2021/10/bonfire_breakfast_eggs_146165_3840x2160.jpg" alt="">
-        </div>
-        <div class="bgr-2">
-            <div class="bgr-2-2">
-                <span class="bgr-2-2-1 team">GROUP-3</span>
-                <span class="bgr-2-2-2 team">TEAM-4</span>
-                <span class="bgr-2-2-3 team">:</span>
-                <span class="bgr-2-2-4 team">#</span>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="./project.html" class="site-brand">
+                Tra<span>vel</span>
+            </a>
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="./home.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="bgr-3">
-            <div class="bgr-3-1">
+    </nav>
+    <!-- end of navbar  -->
+    <!-- header -->
+    <header class="flex">
+        <div class="container">
+            <div class="header-title">
+                <h1>Leave Your Footprints</h1>
+                <p>Get an inside look at Vietnam's best destinations. Let these locals show you around their hometowns with top tips and
+                must-do experiences.</p>
+            </div>
+            <div class="header-form">
+                <h2>Choose your Travel location:</h2>
+                <form class="flex">
+                    <input type="text" class="form-control" placeholder="Destination name">
+                    <input type="date" class="form-control" placeholder="Date">
+                    <input type="number" class="form-control" placeholder="Price ($)">
+                    <input type="submit" class="btn" value="Search">
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
 
-            </div>
-        </div>
-    </div>
-    <div class="body-1">
-        <div>
-            <!-- Tab items -->
-            <div class="tabs">
-                <div class="tab-item active">
-                    <i class="tab-icon fas fa-code"></i>
-                    Location
-                </div>
-                <div class="tab-item">
-                    <i class="tab-icon fas fa-cog"></i>
-                    Activities
-                </div>
-                <!-- <div class="tab-item">
-                  <i class="tab-icon fas fa-plus-circle"></i>
-                  Ember
-                </div>
-                <div class="tab-item">
-                  <i class="tab-icon fas fa-pen-nib"></i>
-                  Vue.JS
-                </div> -->
-                <div class="line"></div>
+    <!-- featured section -->
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about some places before your travel</span>
+                <h2 class="lg-title">featured places</h2>
             </div>
 
-            <!-- Tab content -->
-            <div class="tab-content">
-                <div class="tab-pane active tab-1">
-                    <div class="title">
-                        Choose Place:
-                    </div>
-                    <div class="body-2">
-                        <div class="section-fluid-main">
-                            <div class="section-row">
-                                <div class="section-col">
-                                    <div class="section1">
-                                        <div class="section-in">
-                                            <img src="http://leadtravel.com.vn/cam-nang-du-lich/wp-content/uploads/2016/12/sapa-mua-hoa-no-di-du-lich-sapa-mua-nao-dep-nhat-7.jpg"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="hover-text">
-                                    <h3>-Sa Pa-</h3>
-                                </div>
-                                <div class="section-col">
-                                    <div class="section1">
-                                        <div class="section-in">
-                                            <img src="https://vnn-imgs-f.vgcloud.vn/2022/01/27/20/269927097-682122773194262-2025912568130755358-n.jpg"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="hover-text">
-                                    <h3>-Da Lat-</h3>
-                                </div>
-                                <div class="section-col">
-                                    <div class="section1">
-                                        <div class="section-in">
-                                            <img src="http://wiki-travel.com.vn/Uploads/picture/Thaophuongnguyen-184710084754-ha-long-8.jpg"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="hover-text">
-                                    <h3>-Ha Long Bay-</h3>
-                                </div>
-                                <div class="section-col">
-                                    <div class="section1">
-                                        <div class="section-in">
-                                            <img src="https://images.vietnamtourism.gov.vn/vn/images/2019/CNMN/18.2._5_Dia_diem_me_hoac_cua_Viet_Nam_duoc_truyen_thong_quoc_te_vinh_danh_1.jpg"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="hover-text">
-                                    <h3>-Old Town Hoi An-</h3>
-                                </div>
-                                <div class="section-col">
-                                    <div class="section1">
-                                        <div class="section-in">
-                                            <img src="https://destination-review.com/wp-content/uploads/2021/04/u.jpg"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="hover-text">
-                                    <h3>-Phu Quoc-</h3>
-                                </div>
-                                <div class="section-col">
-                                    <div class="section1">
-                                        <div class="section-in">
-                                            <img src="https://thanhlamhotspring.com/wp-content/uploads/2015/02/%C4%91%E1%BA%A3o-C%C3%B4-T%C3%B4-003.jpg"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="hover-text">
-                                    <h3>-Co To Island-</h3>
-                                </div>
-                            </div>
+            <div class="featured-row">
+                <div class="featured-item my-2 shadow">
+                    <img src="../Images/VHL.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Ha Long Bay, Quang Ninh
+                        </span>
+                        <div>
+                            <p class="text">Ha Long Bay in Quang Ninh province - Vietnam includes the waters of Ha Long city, Cam Pha town, and part of Van Don
+                            island district</p>
                         </div>
                     </div>
                 </div>
 
-
-
-
-
-                <div class="tab-pane tab-2">
-                    <div class="body-3">
-                        <div class="section over-hide" style=" flex: 1.25; margin-left: 3%">
-                            <div class="title" style="margin-left: -20px; margin-bottom: 20px; margin-top: -10px">
-                                Choose Activity:
-                            </div>
-                            <div class="container">
-                                <div class="row full-height justify-content-center">
-                                    <div class="col-12 text-center align-self-center py-5">
-                                        <div class="section text-center py-5 py-md-0">
-                                            <input class="pricing" type="checkbox" id="pricing" name="pricing" />
-                                            <label for="pricing"><span class="block-diff">-Rowing-<span
-                                                        class="float-right">-Camping-</span></span></label>
-                                            <div class="card-3d-wrap mx-auto">
-                                                <div class="card-3d-wrapper">
-                                                    <div class="card-front">
-                                                        <div class="pricing-wrap">
-                                                            <h4 class="mb-5">Rowing</h4>
-                                                            <h2 class="mb-2"><sup>$</sup>39 / 4<sup>hrs</sup></h2>
-                                                            <p class="mb-4">Per Person</p>
-                                                            <!-- <p class="mb-1"><i class="fa-solid fa-location-dot"></i></p> -->
-                                                            <p class="mb-4">located at your registered location.</p>
-                                                            <a href="#0" class="link">Choose Date</a>
-                                                            <div class="img-wrap img-2">
-                                                                <img src="https://assets.codepen.io/1462889/sea.png"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="img-wrap img-1">
-                                                                <img src="https://assets.codepen.io/1462889/kayak.png"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="img-wrap img-3">
-                                                                <img src="https://assets.codepen.io/1462889/water.png"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="img-wrap img-6">
-                                                                <img src="https://assets.codepen.io/1462889/Stone.png"
-                                                                    alt="">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="card-back">
-                                                        <div class="pricing-wrap">
-                                                            <h4 class="mb-5">Camping</h4>
-                                                            <h2 class="mb-2"><sup>$</sup>29 / 8<sup>hrs</sup></h2>
-                                                            <p class="mb-4">Per Person</p>
-                                                            <p class="mb-1"><i
-                                                                    class="uil uil-location-pin-alt size-22"></i></p>
-                                                            <p class="mb-4">Located at your registered location.</p>
-                                                            <a href="#0" class="link">Choose Date</a>
-                                                            <div class="img-wrap img-2">
-                                                                <img src="https://assets.codepen.io/1462889/grass.png"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="img-wrap img-4">
-                                                                <img src="https://assets.codepen.io/1462889/camp.png"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="img-wrap img-5">
-                                                                <img src="https://assets.codepen.io/1462889/Ivy.png"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="img-wrap img-7">
-                                                                <img src="https://assets.codepen.io/1462889/IvyRock.png"
-                                                                    alt="">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="body-4" style=" display:flex; flex: 1; flex-direction: column; margin-top: 165px;">
-                            <div class="title">
-                                Image:
-                            </div>
-                            <div class="section full-height over-hide px-4 px-sm-0">
-                                <div class="container">
-                                    <div class="row full-height justify-content-center">
-                                        <div class="col-lg-10 col-xl-8 align-self-center padding-tb">
-                                            <div class="section mx-auto text-center slider-height-padding">
-                                                <input class="checkbox frst" type="radio" id="slide-1" name="slider"
-                                                    checked />
-                                                <label for="slide-1" style="z-index:200"></label>
-                                                <input class="checkbox scnd" type="radio" name="slider" id="slider-2" />
-                                                <label for="slider-2" style="z-index:200"></label>
-                                                <input class="checkbox thrd" type="radio" name="slider" id="slider-3" />
-                                                <label for="slider-3" style="z-index:200"></label>
-                                                <input class="checkbox foth" type="radio" name="slider" id="slider-4" />
-                                                <label for="slider-4" style="z-index:200"></label>
-                                                <ul>
-                                                    <li>
-                                                        <span>MALE GOOFY FACE</span>
-                                                    </li>
-                                                    <li>
-                                                        <span>TOY PIG</span>
-                                                    </li>
-                                                    <li>
-                                                        <span>SHY PORTRAIT</span>
-                                                    </li>
-                                                    <li>
-                                                        <span>SKATEBOARD FACE</span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="featured-item my-2 shadow">
+                    <img src="../Images/BNH.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Ba Na Hills, Da Nang
+                        </span>
+                        <div>
+                            <p class="text">So many interesting places such as Asia entertainment park, Ba Na hill, Hoi An ancient town...</p>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="tab-pane">
-                  <h2>Ember</h2>
-                  <p>Ember.js is a productive, battle-tested JavaScript framework for building modern web applications. It includes everything you need to build rich UIs that work on any device.</p>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="../Images/PQ.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Ong Lang Beach, Kien Giang
+                        </span>
+                        <div>
+                            <p class="text">Ong Lang Beach Phu Quoc is located on the west coast of the pearl island, about 7km from Duong Dong town.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="tab-pane">
-                  <h2>Vue.js</h2>
-                  <p>Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. </p>
-                </div> -->
+
+                <div class="featured-item my-2 shadow">
+                    <img src="../Images/SS.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Sam Son Beach, Thanh Hoa
+                        </span>
+                        <div>
+                            <p class="text">Sam Son Beach is one of the most beautiful beaches in Vietnam and is always the most crowded beach in the North,
+                            Vietnam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="../Images/Hue.jpeg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Hue Imperial Palace, Hue
+                        </span>
+                        <div>
+                            <p class="text">Hue Citadel which was recognized as a World Cultural Heritage by UNESCO.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="../Images/SDC.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Son Doong Caves, Quang Binh
+                        </span>
+                        <div>
+                            <p class="text">Son Doong cave in Vietnam is one of the most beautiful natural caves and the largest ever found in the world.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <button onclick="topFunction()" id="backtop" title="Go to top"><i class="fa-solid fa-angle-up"></i></button>
-    </div>
-    
+    </section>
+    <!-- end of featured section -->
+
+    <!-- services section -->
+    <section id="services" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about services that we offer</span>
+                <h2 class="lg-title">Our services</h2>
+            </div>
+
+            <div class="services-row">
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-hotel"></i>
+                    </span>
+                    <h3>Luxurious Hotel</h3>
+                    <p class="text">Vinpearl Resort & Spa Phu Quoc offers a journey to experience the unique natural flavors of the pearl island. That's when walking on the beach to watch the brilliant "party of lights" on the horizon, or lounging on a lazy chair to watch a favorite movie at the beach cinema.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </span>
+                    <h3>Travel Guide</h3>
+                    <p class="text">Vietnam has fully reopened for international tourism without any Covid-19 restrictions. Now you are free to discover and enjoy various wild nature destinations like limestone mountains, green terraced rice fields, and white sandy beaches.Holiday is coming, let's get away from it all.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-money-bill"></i>
+                    </span>
+                    <h3>Suitable Price</h3>
+                    <p class="text">The majorrity of expats moving to Vietnam do so on a short-term basis and therefore opt to rent property rather than buy. The cost of rent will vary depending on the standard of housing a person requires, as well as the location of the property. As the rule thumb, housing in outlying suburbs... </p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- testimonials section -->
+    <section id="testimonials" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">what our clients say about us</span>
+                <h2 class="lg-title">testimonials</h2>
+            </div>
+
+            <div class="test-row">
+                <div class="test-item">
+                    <p class="text">The first difference lies in the taxi. In Vietnam, drivers of reputable car companies are very good. They will never
+                    refuse to welcome guests, always voluntarily turn on the counter, dress politely and try to understand foreign guests
+                    like me, not to mention many times when they are really honest.</p>
+                    <div class="test-item-info">
+                        <img src="../Images/P1.jpg" alt="testimonial">
+                        <div>
+                            <h3>Harry Maguire</h3>
+                            <p class="text">Trip to Quang Ninh</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">Vietnamese street food is also quite good. I often eat banh mi and pho. But the problem is that I can't find anything
+                    better than these two traditional dishes. Many friends have told me how great Vietnamese food is.</p>
+                    <div class="test-item-info">
+                        <img src="../Images/P2.jpg" alt="testimonial">
+                        <div>
+                            <h3>Erling Haaland</h3>
+                            <p class="text">Trip to Da Nang</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">I think the expats community living in HCMC is really exemplary as they have added value to the city and used their hard
+                    earned money for the local economy. Foreign guests bring many other benefits, whether they are backpackers or luxury
+                    resort guests.</p>
+                    <div class="test-item-info">
+                        <img src="../Images/P3.jpg" alt="testimonial">
+                        <div>
+                            <h3>Darwin Núñez</h3>
+                            <p class="text">Trip to Nha Trang</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of testimonials section -->
+
+    <!-- video section -->
+    <section id="video">
+        <div class="video-wrapper flex">
+            <video loop>
+                <source src="../Video/Demo.mp4" type="video/mp4">
+            </video>
+            <button type="button" id="play-btn">
+                <i class="fas fa-play"></i>
+            </button>
+        </div>
+    </section>
+    <!-- end of video section -->
+
     <!-- footer -->
     <footer class="py-4">
         <div class="container footer-row">
@@ -290,11 +279,10 @@
                 <a href="./project.html" class="site-brand">
                     Tra<span>vel</span>
                 </a>
-                <p class="text">There's more to Vietnam than the traditional image of rice paddies and conical hats. Here
-                    you'll find a country bursting
-                    with energy and forward motion. You'll feel it in the hum and activity on the streets.</p>
+                <p class="text">There's more to Vietnam than the traditional image of rice paddies and conical hats. Here you'll find a country bursting
+                with energy and forward motion. You'll feel it in the hum and activity on the streets.</p>
             </div>
-    
+
             <div class="footer-item">
                 <h2>Follow us on: </h2>
                 <ul class="social-links">
@@ -325,7 +313,7 @@
                     </li>
                 </ul>
             </div>
-    
+
             <div class="footer-item">
                 <h2>Popular Places:</h2>
                 <ul>
@@ -336,7 +324,7 @@
                     <li><a href="#">Hue</a></li>
                 </ul>
             </div>
-    
+
             <div class="subscribe-form footer-item">
                 <h2>Subscribe for Newsletter!</h2>
                 <form class="flex">
@@ -347,9 +335,20 @@
         </div>
     </footer>
     <!-- end of footer -->
+
+    <!-- js -->
+    <script src="Tus.js"></script>
+    <script>
+        // play/pause video
+        let video = document.querySelector('.video-wrapper video');
+        document.getElementById('play-btn').addEventListener('click', () => {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        });
+    </script>
 </body>
-<script src="Tus-1.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
 
 </html>
