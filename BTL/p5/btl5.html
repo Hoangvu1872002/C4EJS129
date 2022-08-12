@@ -28,7 +28,7 @@
                         <a href="./home.html" class="nav-link">Home</a>
                     </span>
                     <span class="nav-item">
-                        <a href="#" class="nav-link">Gallery</a>
+                        <a href="#" class="nav-link" style="color:#1ec6b6; font-weight: bold;">Gallery</a>
                     </span>
                     <span class="nav-item">
                         <a href="#" class="nav-link">Blog</a>
@@ -36,9 +36,9 @@
                     <span class="nav-item">
                         <a href="./about.html" class="nav-link">About</a>
                     </span>
-                    <span class="nav-item">
+                    <!-- <span class="nav-item">
                         <a href="#" class="nav-link">Contact</a>
-                    </span>
+                    </span> -->
                   </div>
             </div>
         </div>
@@ -66,24 +66,26 @@
               <!-- Tab items -->
               <div class="tabs">
                 <div class="tab-item active">
-                  <i class="tab-icon fas fa-code"></i>
+                  <i class="fa-solid fa-location-dot"></i>
                   Location
                 </div>
                 <div class="tab-item">
-                  <i class="tab-icon fas fa-cog"></i>
+                  <i class="fa-solid fa-shoe-prints"></i>
                   Activities
                 </div>
-                <!-- <div class="tab-item">
-                  <i class="tab-icon fas fa-plus-circle"></i>
-                  Ember
-                </div>
-                <div class="tab-item">
-                  <i class="tab-icon fas fa-pen-nib"></i>
-                  Vue.JS
-                </div> -->
                 <div class="line"></div>
               </div>
               
+
+
+
+              <div class="intersect">
+                <div class="intersectTitle">---- Life is journeys ----</div>
+              </div>
+
+
+
+
               <!-- Tab content -->
               <div class="tab-content">
                 <div class="tab-pane active tab-1">
@@ -183,7 +185,7 @@
                                         <p class="mb-4">Per Person</p>
                                         <!-- <p class="mb-1"><i class="fa-solid fa-location-dot"></i></p> -->
                                         <p class="mb-4">located at your registered location.</p>
-                                        <a href="#0" class="link">Choose Date</a>
+                                        <button onclick="participation()" class="link">Participate</button>
                                         <div class="img-wrap img-2">
                                           <img src="https://assets.codepen.io/1462889/sea.png" alt="">
                                         </div>
@@ -205,7 +207,7 @@
                                         <p class="mb-4">Per Person</p>
                                         <p class="mb-1"><i class="uil uil-location-pin-alt size-22"></i></p>
                                         <p class="mb-4">Located at your registered location.</p>
-                                        <a href="#0" class="link">Choose Date</a>
+                                        <button onclick="participation()" class="link">Participate</button>
                                         <div class="img-wrap img-2">
                                           <img src="https://assets.codepen.io/1462889/grass.png" alt="">
                                         </div>
@@ -250,13 +252,13 @@
                                                         <span>MALE GOOFY FACE</span>
                                                     </li>
                                                     <li>
-                                                        <span>TOY PIG</span>
+                                                        <span>VUNG TAU SEA</span>
                                                     </li>
                                                     <li>
-                                                        <span>SHY PORTRAIT</span>
+                                                        <span>DA LAT</span>
                                                     </li>
                                                     <li>
-                                                        <span>SKATEBOARD FACE</span>
+                                                        <span>NHA TRANG SEA</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -268,7 +270,7 @@
                       </div>
                 </div>
                 <!-- <div class="tab-pane">
-                  <h2>Ember</h2>
+                  <h2>Ember</h2>ab-con
                   <p>Ember.js is a productive, battle-tested JavaScript framework for building modern web applications. It includes everything you need to build rich UIs that work on any device.</p>
                 </div>
                 <div class="tab-pane">
@@ -277,16 +279,19 @@
                 </div> -->
               </div>
             </div>
-            <button onclick="topFunction()" id="backtop" title="Go to top"><i class="fa-solid fa-angle-up"></i></button>
+            <button onclick="topFunction()" id="backtop" title="Go to top"><i class="fa-solid fa-angles-up"></i></button>
           </div>
 
 
 
-<!-- 
+
 
           <div class="test">
-            <div class="card">abcxyz</div>
-          </div> -->
+            <div class="logo"><img class="logo-1" src="https://previews.123rf.com/images/everythingpossible/everythingpossible1306/everythingpossible130600371/20100574-airplane-traveling-around-the-world-as-concept.jpg" alt=""></div>
+            <div class="card-box">
+              <div class="card">Trips and me.</div>
+            </div>
+          </div>
 
 
 
@@ -338,11 +343,12 @@
                 <div class="footer-item">
                   <div class="footer-item-title">Popular Places</div>
                     <div class="footer-item-title-location">
+                        <span class="footer-item-title-location-box"><a href="#" class="footer-item-title-location-li">Sa Pa</a></span>
+                        <span class="footer-item-title-location-box"><a href="#" class="footer-item-title-location-li">Da Lat</a></span>
                         <span class="footer-item-title-location-box"><a href="#" class="footer-item-title-location-li">Ha Long Bay</a></span>
-                        <span class="footer-item-title-location-box"><a href="#" class="footer-item-title-location-li">Da Nang</a></span>
+                        <span class="footer-item-title-location-box"><a href="#" class="footer-item-title-location-li">Old Town Hoi An</a></span>
                         <span class="footer-item-title-location-box"><a href="#" class="footer-item-title-location-li">Phu Quoc</a></span>
-                        <span class="footer-item-title-location-box"><a href="#" class="footer-item-title-location-li">Nha Trang</a></span>
-                        <span class="footer-item-title-location-box"><a href="#" class="footer-item-title-location-li">Hue</a></span>
+                        <span class="footer-item-title-location-box"><a href="#" class="footer-item-title-location-li">Co To Island</a></span>
                     </div>
                 </div>
         

@@ -7,8 +7,6 @@ const panes = $$(".tab-pane");
 const tabActive = $(".tab-item.active");
 const line = $(".tabs .line");
 
-// SonDN fixed - Active size wrong size on first load.
-// Original post: https://www.facebook.com/groups/649972919142215/?multi_permalinks=1175881616551340
 requestIdleCallback(function () {
   line.style.left = tabActive.offsetLeft + "px";
   line.style.width = tabActive.offsetWidth + "px";
@@ -33,6 +31,17 @@ tabs.forEach((tab, index) => {
 
 
 
+function participation(){
+  const a = document.querySelector('.link');
+  a.innerHTML ='Registered';
+}
+
+
+
+
+
+
+
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -51,16 +60,36 @@ function topFunction() {
 
 
 
+{
+const cards =document.querySelectorAll('.card')
 
-// const test =document.querySelectorAll('.card')
+const observer = new IntersectionObserver(entries =>{
+  entries.forEach(entry=>{
+    const {target}= entry;
+    target.classList.toggle('activeA', entry.isIntersecting)
+  })
+},{})
 
-// const observer = new IntersectionObserver(entries =>{
-//   entries.forEach(entry=>{
-//     const {target}= entry;
-//     target.classList.toggle('activeA', entry.isIntersecting)
-//   })
-// },{})
+cards.forEach(card =>{
+  observer.observe(card);
+})
+}
 
-// cards.forEach(card =>{
-//   observer.observe(card)
-// })
+
+{
+const intersectTitles = document.querySelectorAll('.intersectTitle')
+
+const observers = new IntersectionObserver(entries =>{
+  entries.forEach(entry=>{
+    const {target}= entry;
+    target.classList.toggle('activeB', entry.isIntersecting)
+  })
+},{})
+
+intersectTitles.forEach(intersectTitle =>{
+  observers.observe(intersectTitle)
+})
+}
+
+
+
